@@ -1,6 +1,9 @@
 <script>
   import { page } from '$app/stores';
 
+  /**
+   * @type {string}
+   */
   let currentRoute;
   $: {
     currentRoute = $page.url.pathname;

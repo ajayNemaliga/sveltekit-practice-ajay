@@ -1,6 +1,6 @@
 import NeucronSDK from "neucron-sdk";
 
-/** @type {import('./$types').Actions} */
+/** type {import('./$types').Actions} **/
 export const actions = {
 
     login: async ({request}) => {
